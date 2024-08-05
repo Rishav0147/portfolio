@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    padding: 20px;
+    top:0;
+    z-index: 15;
+    background-color: black;
+}
+.logo{
+    width: 30%;
+    
+    filter: invert(1);
+}
+
+.logo li{
+    width: 100px;
+    font-style: italic;
+    font-size: 30px;
+    list-style: none;
+    margin-left: 20px;
+ }
+
+.items{
+    width: 70%;
+    color: lightgrey;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+
+
+.items :hover{
+    color: rgb(204, 131, 41);
+    cursor: pointer;
+    transform: scale(1.40);
+}
+.hero-section{
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h4{
+    font-size: 14px;
+    font-style: italic;
+    transform: translateY(30px);
+    margin-right: 300px;
+}
+h1{
+    margin-left: 50px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    margin-left: 50px;
+    color: white;
+}
+.right{
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.right img{
+    width: 40%;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+   text-align: center;
+   font-size: 50px;
+   transform: translateY(40px);
+   
+}
+
+
+
+
+
+.about-me{
+    width: 100%;
+    background-color:black;
+    display: flex;
+}
+.about-me-left{
+    width: 30%;
+
+}
+.about-me-left img{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 6px;
+    margin-left: 50px;
+    transform: translateY(40px);
+}
+.about-me-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3{
+    color: white;
+}
+.about1{
+    background-color: black;
+  
+}
+
+
+
+
+
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+
+    
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.skills1{
+    background-color: black;
+    transform: translateY(50px);
+   
+}
+.left-skills{
+    width: 30%;
+
+}
+.left-skills img{
+    height: 300px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 6px 6px;
+}
+.right-skills{
+    width: 70%;
+    margin-left: 50px;
+}
+h5{
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+/* PROJECTS  */
+.project{
+    width:100%;
+    background-color: black;
+    
+}
+.projecthead{
+    width:100%;
+    text-align: center;
+    color: white;
+}
+.projecthead h1{
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.maindiv{
+    width:100%;
+    display: flex;
+    background-color: black;
+    
+}
+.insidedivall{
+    width: 100%;
+    padding: 70px;
+
+}
+.insidediv1{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    transform: translateY(-60px);
+}
+
+.inside1{
+    width:33%;
+    background-color: black;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid darkgray;
+    border-left: 2px solid yellow;
+    border-radius: 10px;
+}
+.inside1:hover{
+    background-color: lightgray;
+    transition: 3s;
+    cursor: pointer;
+    
+}
+/* .inside2{
+    width: 33%;
+    background-color: black;
+    border: 2px solid yellow;
+}
+.inside3{
+    width:33%;
+    background-color: black;
+    border: 2px solid yellow;
+}
+.insidediv2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    
+}
+.inside4{
+    width:33%;
+    background-color: black;
+    border: 2px solid yellow;
+    
+}
+.inside5{
+    width: 33%;
+    background-color: black;
+    border: 2px solid yellow;
+}
+.inside6{
+    width:33%;
+    background-color: black;
+    border: 2px solid yellow;
+} */
+
+.icon1{
+    color: white;
+    font-size: 25px;
+    transform: translateY(10px);
+}
+.icon1 :nth-child(2){
+    float: right;
+    color: yellow;
+    font-size: 20px;
+    transform: translateX(-20px);
+    
+}
+.content1 p{
+   font-size: 20px;
+   margin: 10px;
+}
+.first-content{
+    font-size: 30px;
+    color: rgb(100, 132, 43);
+}
+.content1 :nth-child(2){
+    font-size: 20px;
+}
+.bottom1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bottom1 p{
+    color: gray;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.call-button{
+    
+    color: white;
+    margin-left: 450px;
+}
+.call-button :nth-child(2){
+    color: white;
+}
+.email{
+    color: white;
+    margin-left: 100px;
+}
+.email :nth-child(2){
+    color: white;
+}
+.last-line{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 50px;
+    transform: translateX(-400px);
+}
+.hire{
+    transform: translateY(-50px);
+}
+
+.sticky{
+ 
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    gap: 10px;
+    
+}
+.sticky i{
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+
+
+
+
+
+@media (max-width:500px){
+    .navbar{
+        width: 100%;
+        
+    }
+   
+    .items{
+        display: none;
+    }
+    .hero-section{
+        width: 100%;
+        display: block;
+    }
+    
+    .left{
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .right{
+        width: 100%;
+      
+    }
+
+    .right img{
+        transform: translateY(-100px);
+        
+    }
+
+
+
+
+    /* about-me start */
+    .about1{
+        width: 100%;
+    
+    }
+    .about1 h2{
+        transform: translateY(-50px);
+    }
+    .about-me{
+        width: 100%;
+        flex-direction: column;
+        background-color: bisque;
+        gap: 50px;
+
+    }
+    /* skills start */
+    .skills1{
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+        display: block;
+        background-color: bisque;
+        
+    }
+    .left-skills{
+        transform: translateY(30px);
+    }
+
+
+    /* projects start */
+    .maindiv{
+        width: 100%;
+        
+    }
+    .insidediv1{
+        display: block;
+        width: 100%;
+        
+        
+    }
+    .inside1{
+        width: 80%;
+        display: block;
+        margin: 0px;
+        margin-bottom: 30px;
+        
+        
+    }
+    
+    
+
+    /* footer start */
+    .hire{
+        width: 100%;
+        align-items: center;
+    }
+    .footer{
+        width: 100%;
+        display: block;
+       
+    }
+.call-button{
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.email{
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+   
+}
